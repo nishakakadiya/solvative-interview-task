@@ -1,0 +1,46 @@
+.result-text {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  margin: 0.5rem;
+}
+.complete-text {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0.5rem;
+}
+.your-score {
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0.5rem;
+}
+.score {
+  font-weight: 700;
+  font-size: 56px;
+  margin: 0.5rem;
+  text-align: center;
+}
+.great-job {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0.5rem;
+}
+.summary-container {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+.success {
+  color: #06af52;
+}
+.failure {
+  color: #af9b06;
+}
+.count {
+  font-weight: 900;
+  font-size: 20px;
+}
+.primary {
+  color: #d73470;
+}

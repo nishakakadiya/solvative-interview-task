@@ -4,4 +4,73 @@ body {
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #f3f3e9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner-ontainer {
+  padding: 5rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.topic-option {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  flex: 0.5;
+}
+
+.topic-option input {
+  accent-color: #d73470;
+  margin-right: 0.5rem;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #d73470;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  &:disabled {
+    opacity: 0.4;
+  }
+}
+.btn-text {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: transparent;
+  &:disabled {
+    opacity: 0.4;
+  }
+}
+.btn-secondary {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #b92b5d;
+  color: #b92b5d;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: transparent;
+  &:disabled {
+    opacity: 0.4;
+  }
 }
